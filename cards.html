@@ -1,92 +1,82 @@
 <!DOCTYPE html>
 <html lang="es">
-	<head>
-		<meta charset="UTF-8">
-		<title>Ejercicio en materialize</title>
-		<meta name="viewport" content="width-device-width, initial-scale=1">
-		<link rel="stylesheet" href="css/materialize.min.css">
-	</head>
-
-	<body>
-		<div class="container">
-			<h3>Tarjeta básica</h3>
-			<div class="row">
-				<div class="col s12 m6">
-					<div class="card blue-grey darken-3">
-						<div class="card-content white-text">
-							<span class="card-title ">Titulo de la tarjeta</span>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam eligendi vero quidem facere laudantium</p>
-						</div>
-						<div class="card-action">
-							<a href="http://sharksoft.com.mx">SharkSoft</a>
-							<a href="http://google.com.mx">Google</a>
-						</div>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+  <title>Clase 14 - Cards</title>
+  <link rel="stylesheet" href="css/materialize.css">
+</head>
+<body>
+	<div class="container">
+		<h2>Tarjeta básica</h2>
+		<div class="row">
+			<div class="col s12 m6">
+				<div class="card blue-grey darken-3">
+					<div class="card-content white-text">
+						<span class="card-title">titulo de la tarjeta</span>
+						<p>Este es un texto complementario de la tarjeta</p>
+					</div>
+					<div class="card-action">
+						<a href="http://sharksoft.com.mx">SharkSoft</a>
+						<a href="http://google.com.mx">Google</a>
 					</div>
 				</div>
 			</div>
-
-			<h3>Tarjeta con imagen</h3>
-			<div class="row">
-				<div class="col s12 m6">
-					<div class="card">
-						<div class="card-image">
-							<img src="http://lorempixel.com/400/200">
-							<span class="card-title orange-text">
-								San Francisco
-							</span>
-						</div>
-						<div class="card-content">
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam fuga doloribus cumque at aliquam quas debitis alias facilis itaque vitae</p>
-						</div>
-						<div class="card-action">
-							<a href="http://sharksoft.com.mx">SharkSoft</a>
-							<a href="http://google.com.mx">Google</a>
-						</div>
+		</div>
+		<h2>Tarjeta con imagen</h2>
+		<div class="row">
+			<div class="col s12 m6">
+				<div class="card ">
+				    <div class="card-image">
+						<img src="http://lorempixel.com/animals/200/200">
+						<span class="card-title">
+							Christian Magallon
+						</span>
+				    </div>
+					<div class="card-content">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, labore!</p>
+					</div>
+					<div class="card-action">
+						<a href="#">Link 1</a>
+						<a href="#">Link 2</a>
 					</div>
 				</div>
 			</div>
-
-			<h3>Tarjeta Reveal</h3>
-			<div class="row">
-				<div class="col s12 m6">
-					<div class="card">
-						<div class="card-image waves-effect waves-block waves-light">
-							<img class="activator" src="http://lorempixel.com/400/300">
-						</div>
-						<div class="card-content">
-							<span class="card-title activator grey-text text-darken-4">
-								Titulo de la tarjeta
-								<i class="mdi-navigation-more-vert right"></i>
-							</span>
-						</div>
-
-						<div class="card-reveal">
-							<span class="card-title grey-text text-darken-4 ">
-								Titulo de la tarjeta
-								<i class="mdi-navigation-close right"></i>
-							</span>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim veniam nulla nesciunt tenetur</p>
-						</div>
+		</div>
+		<h2>Tarjeta Reveal</h2>
+		<div class="row">
+			<div class="col s12 m6">
+				<div class="card ">
+					<div class="card-image waves-effect waves-block waves-orange">
+						<img class="activator" src="http://lorempixel.com/200/200">
+					</div>
+					<div class="card-content">
+						<span class="card-title activator grey-text text-darken-4">
+							Titulo de la tarjeta
+							<i class="mdi-navigation-more-vert right"></i>
+						</span>
+					</div>
+					<div class="card-reveal">
+						<span class="card-title grey-text text-darken-4 ">
+							Titulo de la tarjeta
+							<i class="mdi-navigation-close right"></i>
+						</span>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum veritatis autem amet quo, necessitatibus praesentium sapiente pariatur quam voluptatum cumque itaque numquam impedit quas maiores mollitia odit hic provident ex.</p>
 					</div>
 				</div>
 			</div>
+		</div>
+		<h2>Tamaños de las tarjetas</h2>
 
-			<h3>Tamaños de tarjeta</h3>
-			<div class="row">
-				<div class="col s12 m6">
-					<div class="card blue-grey darken-3">
-						<div class="card-content white-text">
-							<span class="card-title ">Titulo de la tarjeta</span><br>
-							<span>Small: Limitacion de la altura de la  tarjeta a 300px</span><br>
-							<span>Medium: Limitacion de la altura de la  tarjeta a 400px</span><br>
-							<span>Large: Limitacion de la altura de la  tarjeta a 500px</span><br>
-						</div>
-					</div>
-				</div>
-			</div>
-			
-	</body>
+		<span>Small: limitacion de altura de la tarjeta a 300px</span>
+		<span>Medium: limitacion de altura de la tarjeta a 400px</span>
+		<span>Large: limitacion de altura de la tarjeta a 500px</span>
 
-	<script src="js/materialize.min.js"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+
+	</div>
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+</body>
 </html>
