@@ -1,0 +1,9 @@
+/*para personalizar los colores*/
+
+.waves-effect.waves-micolor .waves-ripple{
+	background-color: rgba(222, 24, 22, 0.9);
+}
+
+.margin-top__small{
+	margin-top: 2em;
+ }
